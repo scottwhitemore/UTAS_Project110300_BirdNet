@@ -37,6 +37,7 @@ Put a table in here:
 
 | Bird   | Small model | Big model |
 | :---   | :---:       | :----:    |
+| *average* | 0.5      | 0.3       |
 | bird 1 | 0.6         | 0.4       |
 | ...    | ...         | ...       |
 
