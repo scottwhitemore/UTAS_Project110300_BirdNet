@@ -27,5 +27,19 @@ By way of explanation,
 ### Windows
 If you have Docker installed, you can use the same instructions as above; otherwise, scripts in Python are available.
 
+### Performance
+
+Put a table in here:
+
+* four different models NWTas / VicForest, Small/Big
+
+#### North-West Tasmanian Birds
+
+| Bird   | Small model | Big model |
+| :---   | :---:       | :----:    |
+| bird 1 | 0.6         | 0.4       |
+| ...    | ...         | ...       |
+
+
 ## Notes
 *  If your WAV files are sampled at 22.05kHz you will probably find it faster since the program will probably otherwise have to *down-sample* to that frequency, for example if they are sampled at 44.1kHz.
