@@ -20,7 +20,9 @@ By way of explanation,
  * `docker pull` tells the docker program to download the image
    - `--mount type=bind,` indicates that you want to mount the source folder `src` in virtual storage, giving us a way to see the data and also save the predictons to local storage (your hard drive).
    - `src=/full/path/to/wav/files/` is the full path to the folder containing your audio files in WAV format.
-   - 
+   - `dst=/data` tells the recogniser where to look in the docker container for those audio files. Don't change this!
+   - `scottwhitemore/birdnet:NWTAS_b3` is the docker image itself, which you download.
+
 
 ### Windows
 If you have Docker installed, you can use the same instructions as above; otherwise, scripts in Python are available.
