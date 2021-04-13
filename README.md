@@ -16,7 +16,6 @@ docker run --mount type=bind,src=/full/path/to/wav/files/,dst=/data scottwhitemo
 ```
 
 By way of explanation, 
-[comment:] <> * `sudo` is to enable the super-user privileges you need to run Docker (don't worry, it's safe!).  You *may* have to use sudo
  * `docker pull` tells the docker program to download the image
    - `--mount type=bind,` indicates that you want to mount the source folder `src` in virtual storage, giving us a way to see the data and also save the predictons to local storage (your hard drive).
    - `src=/full/path/to/wav/files/` is the full path to the folder containing your audio files in WAV format.
